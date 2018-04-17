@@ -1,0 +1,107 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/primary_gradient_background"
+    tools:context="payso.com.payso.controller.signup.SignInUpFrag">
+
+    <!-- TODO: Update blank fragmprimary_gradient_backgroundyout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/sir_isak" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/languageTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_padding_size_medium_16dp"
+                android:layout_marginRight="@dimen/margin_padding_size_medium_16dp"
+                android:layout_marginTop="@dimen/margin_padding_size_small_8dp"
+                android:text="@string/languages"
+                android:textColor="@color/textWhitePrimaryColor"
+                android:textSize="@dimen/text_subheading_dense_17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/PaySoTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+                android:textColor="@color/textWhitePrimaryColor"
+                android:textStyle=""
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/loginButton"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_padding_size_small_8dp"
+                android:layout_marginEnd="@dimen/margin_padding_size_medium_16dp"
+                android:layout_marginStart="@dimen/margin_padding_size_medium_16dp"
+                android:text="@string/log_in"
+                android:textAllCaps="false"
+                android:textSize="@dimen/text_button_medium_bold_15sp"
+                android:theme="@style/PrimaryButton"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/signupButton"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/signupButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_padding_size_small_8dp"
+                android:layout_marginEnd="@dimen/margin_padding_size_medium_16dp"
+                android:layout_marginStart="@dimen/margin_padding_size_medium_16dp"
+                android:text="@string/sign_up"
+                android:textAllCaps="false"
+                android:textColor="@color/textBlackPrimaryColor"
+                android:textSize="@dimen/text_button_medium_bold_15sp"
+                android:theme="@style/PrimaryAccentButton"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/loginButton" />
+
+            <ImageView
+                android:id="@+id/paysoLogoImageview"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:adjustViewBounds="false"
+                android:scaleType="fitEnd"
+                android:src="@drawable/payso"
+                app:layout_constraintBottom_toBottomOf="@+id/PaySoTV"
+                app:layout_constraintEnd_toStartOf="@+id/PaySoTV"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/PaySoTV" />
+
+        </android.support.constraint.ConstraintLayout>
+    </FrameLayout>
+
+</FrameLayout>

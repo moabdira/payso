@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_padding_size_large_24dp"
+    android:layout_marginEnd="@dimen/screen_edge_left_and_right_margins" >
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_facebook_button"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/use_email_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/login_facebook_button">
+
+        <TableRow
+            android:id="@+id/tableRow"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/or_use_your_email"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray" />
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/email_EditText"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorAccent"
+        android:hapticFeedbackEnabled="true"
+        android:inputType="textEmailAddress"
+        android:hint="@string/name_company_com"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@+id/use_email_linearLayout" />
+
+    <Button
+        android:id="@+id/signup_button"
+        style="@style/PrimaryAccentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/sign_up"
+        app:layout_constraintTop_toBottomOf="@+id/email_EditText" />
+
+    <TextView
+        android:id="@+id/terms_privacy_policy_Textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="By signing up you accept the Terms of Service and Privacy Policy"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+        android:textColor="@color/textBlackSecondaryColor"
+        android:textSize="12sp"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_button" />
+
+
+</android.support.constraint.ConstraintLayout>

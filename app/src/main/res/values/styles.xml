@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SignUpAppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PrimaryButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="PrimaryAccentButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Sign up style theme. -->
+    <style name="AppBarLayout">
+        <item name="android:layout_height">192dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="CollapsingToolbarLayout">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <!-- <item name="app:contentScrim">?attr/colorPrimary</item>
+         <item name="app:layout_scrollFlags">scroll|exitUntilCollapsed</item>
+         <item name="app:toolbarId">@+id/toolbar</item> -->
+     </style>
+
+     <style name="ToolbarLayout">
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">?attr/actionBarSize</item>
+         <!--<item name="app:layout_collapseMode">pin</item>
+         <item name="app:popupTheme">@style/ThemeOverlay.AppCompat.Light</item> -->
+     </style>
+
+     <style name="ProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_alignParentBottom">true</item>
+         <item name="android:layout_alignParentLeft">true</item>
+         <item name="android:layout_alignParentStart">true</item>
+         <item name="android:layout_gravity">bottom</item>
+         <item name="android:indeterminate">false</item>
+         <item name="android:max">3</item>
+         <item name="android:visibility">visible</item>
+     </style>
+
+     <style name="TextViewAppBar">
+         <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:layout_gravity">bottom|start</item>
+     </style>
+
+     <style name="TextViewAppBarTitle" parent="TextViewAppBar">
+         <item name="android:layout_marginBottom">72dp</item>
+         <item name="android:layout_marginStart">@dimen/margin_padding_size_large_24dp</item>
+         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+     </style>
+
+     <style name="TextViewAppBarSubhead" parent="TextViewAppBar">
+         <item name="android:layout_marginBottom">32dp</item>
+         <item name="android:layout_marginStart">@dimen/margin_padding_size_large_24dp</item>
+         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Subhead</item>
+     </style>
+
+     <style name="CheckedTextView">
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">match_parent</item>
+         <item name="android:layout_marginTop">@dimen/margin_padding_size_small_8dp</item>
+         <item name="android:checkMarkTint">@color/colorPrimary</item>
+         <item name="android:paddingEnd">@dimen/margin_padding_size_large_24dp</item>
+         <item name="android:paddingLeft">@dimen/margin_padding_size_large_24dp</item>
+         <item name="android:paddingRight">@dimen/margin_padding_size_large_24dp</item>
+         <item name="android:paddingStart">@dimen/margin_padding_size_large_24dp</item>
+         <item name="android:textSize">@dimen/text_body_dense_15sp</item>
+     </style>
+
+
+     <style name="TextViewSpinnerList">
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:textColor">@color/textBlackPrimaryColor</item>
+         <item name="android:background">@color/lightThemeBackgroundColor</item>
+         <item name="android:gravity">center_vertical</item>
+         <item name="android:textAppearance">?android:attr/textAppearanceListItemSmall</item>
+         <item name="android:minHeight">?android:attr/listPreferredItemHeightSmall</item>
+     </style>
+
+    <style name="SignupConstraintLayoutBody">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">371dp</item>
+        <item name="android:background">@color/lightThemeBackgroundColor</item>
+    </style>
+
+    <style name="TextInputLayout">
+        <item name="android:layout_width">312dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+ </resources>

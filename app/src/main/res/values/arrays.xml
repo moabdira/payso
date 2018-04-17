@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="phone_carrier">
+        <item>@string/choose_phone_carrier</item>
+        <item>TELESOM</item>
+        <item>GOLIS</item>
+        <item>Hormuud</item>
+    </string-array>
+    
+</resources>

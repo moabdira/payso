@@ -1,0 +1,1 @@
+{"UserAgent":"MobileHub/1.0","Version":"1.0","CredentialsProvider":{"CognitoIdentity":{"Default":{"PoolId":"us-east-1:34d43eb3-bd58-45c9-8838-b2a2da7d43c8","Region":"us-east-1"}}},"IdentityManager":{"Default":{}},"PinpointAnalytics":{"Default":{"AppId":"eabcd19c3efc40aa8a23888b44d6d21c","Region":"us-east-1"}},"PinpointTargeting":{"Default":{"Region":"us-east-1"}}}

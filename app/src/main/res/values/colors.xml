@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme Colors -->
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorPrimaryLight">#C8E6C9</color>
+    <color name="colorAccent">#69F0AE</color>
+    <color name="colorAccentDark">#00E676</color>
+    <color name="colorAccentLight">#B9F6CA</color>
+
+    <!-- Text Colors -->
+    <color name="textBlackPrimaryColor">#000000</color>
+    <color name="textBlackSecondaryColor">#2c2a2b</color>
+    <color name="textDisabledHintBlackColor">#383737</color>
+    <color name="textWhitePrimaryColor">#FFFFFF</color>
+    <color name="textWhiteSecondaryColor">#b2b2b2</color>
+    <color name="textDisabledHintWhiteColor">#7f7f7f</color>
+
+    <!-- Theme Status Bar, App Bar, Background and Cards/Dialog Colors -->
+    <color name="lightThemeStatusBarColor">#E0E0E0</color>
+    <color name="lightThemeAppBarColor">#F5F5F5</color>
+    <color name="lightThemeBackgroundColor">#FAFAFA</color>
+    <color name="lightThemeCards_DialogColor">#FFFFFF</color>
+    <color name="darkThemeStatusBarColor">#000000</color>
+    <color name="darkThemeAppBarColor">#212121</color>
+    <color name="darkThemeBackgroundColor">#303030</color>
+    <color name="darkThemeCards_DialogColor">#424242</color>
+
+</resources>

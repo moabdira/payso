@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    # Material Design Dimensions
+    These dimensions are provided as per Material Design Guidelines
+    to adhere to a 8 dp baseline grid. (With the exception of the
+    toolbar and notification bar.).
+    ## References
+    - https://www.google.com/design/spec/layout/metrics-keylines.html
+    - https://material.io/guidelines/style/typography.html#typography-typeface
+-->
+
+    <!-- Margins & Padding, 8 dp baseline, https://material.io/guidelines/layout/metrics-keylines.html#metrics-keylines-baseline-grids -->
+    <dimen name="margin_padding_size_small_8dp">8dp</dimen>
+    <dimen name="margin_padding_size_medium_16dp">16dp</dimen>
+    <dimen name="margin_padding_size_large_24dp">24dp</dimen>
+    <dimen name="margin_padding_size_xlarge_32dp">32dp</dimen>
+    <dimen name="margin_padding_size_xxlarge_56dp">56dp</dimen>
+    <dimen name="margin_padding_size_xxxlarge_72dp">72dp</dimen>
+
+    <!-- Launcher Icon Size, https://developer.android.com/guide/practices/ui_guidelines/icon_design_launcher.html#size -->
+    <dimen name="launcher_icon_size">@dimen/standard_touch_size</dimen>
+
+    <!-- Touch Target Size, https://material.io/guidelines/layout/metrics-keylines.html#metrics-keylines-touch-target-size-->
+    <dimen name="standard_touch_size">48dp</dimen>
+
+    <!-- Toolbar, 4 dp baseline, https://material.io/guidelines/layout/metrics-keylines.html#metrics-keylines-baseline-grids -->
+    <dimen name="toolbar_margin_size">4dp</dimen>
+    <dimen name="toolbar_icon_size">24dp</dimen>
+
+    <!-- Material Metrics and Keylines -->
+    <dimen name="screen_edge_left_and_right_margins">16dp</dimen>
+    <dimen name="content_left_margin_from_screen_edge">72dp</dimen>
+    <dimen name="vertical_status_bar">24dp</dimen>
+    <dimen name="vertical_tool_bar">56dp</dimen>
+    <dimen name="vertical_tool_bar_height_big">371dp</dimen>
+    <dimen name="vertical_title_and_list_items">72dp</dimen>
+    <dimen name="vertical_subtitle">48dp</dimen>
+    <dimen name="vertical_space_between_content_areas">8dp</dimen>
+    <dimen name="touch_target_height_width">48dp</dimen>
+    <dimen name="avatar">40dp</dimen>
+    <dimen name="icon">24dp</dimen>
+    <dimen name="small_icon">8dp</dimen>
+    
+    <!-- Font sizes, https://material.io/guidelines/style/typography.html#typography-typeface -->
+    <dimen name="text_size_micro_12sp">12sp</dimen>
+    <dimen name="text_size_small_14sp">14sp</dimen>
+    <dimen name="text_size_medium_16sp">16sp</dimen>
+    <dimen name="text_size_large_20sp">20sp</dimen>
+    <dimen name="text_size_xlarge_34sp">34sp</dimen>
+    <dimen name="text_size_xxlarge_45sp">45sp</dimen>
+    <dimen name="text_size_xxxlarge_56sp">56sp</dimen>
+    <dimen name="text_app_bar_title_medium_20sp">20sp</dimen>
+    <dimen name="text_subheading_16sp">16sp</dimen>
+    <dimen name="text_subheading_dense_17sp">17sp</dimen>
+    <dimen name="text_body_14sp">14sp</dimen>
+    <dimen name="text_body_dense_15sp">15sp</dimen>
+    <dimen name="text_button_medium_14sp">14sp</dimen>
+    <dimen name="text_button_medium_dense_15sp">15sp</dimen>
+    <dimen name="text_button_medium_bold_15sp">15sp</dimen>
+</resources>
